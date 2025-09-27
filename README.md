@@ -1,13 +1,31 @@
-AI Assitant–Dora
+# Dora-VoxView AI Assistant
 
-Your new AI assistant that can interact with you through webcam and audio in real time. You can ask her anything — she listens, thinks, and responds like a real conversational agent.
+## Project Overview
+Dora-VoxView AI Assistant is an intelligent AI-powered assistant that integrates **voice and vision capabilities**.  
+It can understand speech, answer questions using NLP, analyze images, and provide audio responses, making it an interactive virtual assistant experience.
 
-### 🛠️ Tools & Technologies Used
+This project demonstrates the use of modern AI tools and APIs to create a **multi-modal AI assistant**.
 
-* ⚡ **LangGraph React Agents** → For building reactive agent workflows
-* 🔗 **LangChain** → Tool integration and AI orchestration
-* 🚀 **FastAPI + Uvicorn** → Backend APIs & hosting
-* 🤖 **Groq & OpenAI** → LLMs for reasoning, text & vision
-* 🎨 **Streamlit** → Interactive user interface
+---
+## Tech Stack
+- **Programming Language:** Python  
+- **UI Framework:** Streamlit  
+- **API Framework:** FastAPI  
+- **AI & LLMs:** OpenAI, Groq, LangGraph, LangChain  
+- **Text-to-Speech (TTS):** ElevenLabs, gTTS  
+- **Speech-to-Text (STT):** Whisper AI  
+- **Other Tools:** ffmpeg, PyDub  
+
+---
+
+## Features
+- Real-time **speech-to-text** conversion  
+- **NLP question answering** using LLMs  
+- **Facial emotion recognition** from webcam input  
+- **Audio responses** using TTS  
+- Multi-modal AI interactions (voice + vision)  
+- Easy to run locally using Python and Streamlit  
+
+---
 
 
